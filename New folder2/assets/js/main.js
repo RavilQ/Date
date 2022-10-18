@@ -94,14 +94,17 @@ last1.addEventListener("click",()=>{
 let last2 = document.getElementById("Done");
 last2.addEventListener("click",()=>{
 
-    last2.parentElement.parentElement.parentElement.setAttribute("style",
-    
-    
-    "background-color:none !important; background-color:green !important;"
-    );
-    // last.parentElement.setAttribute("class","klasess2");
-    // last.setAttribute("class","klases")
 
+   let deyisgen = last2.parentElement.parentElement.parentElement;
+
+   deyisgen.style.backgroundColor="green";
+
+    // last2.parentElement.parentElement.parentElement.setAttribute("style",
+    
+    
+    // "background-color:none !important; background-color:green !important;"
+    // );
+    
 })
 
 
